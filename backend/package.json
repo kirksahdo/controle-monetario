@@ -4,7 +4,8 @@
   "description": "",
   "main": "loader.js",
   "scripts": {
-    "dev": "nodemon",
+    "dev": "nodemon loader.js",
+    "start": "nodemon loader.js",
     "production": "pm2 start loader.js --name backend"
   },
   "author": "Kirk Sahdo",
